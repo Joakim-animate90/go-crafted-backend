@@ -25,9 +25,7 @@ And as always I would love to get feedback on my project. This helps everyone an
 - Repository
 - Domain
 
-
-
-
+![Go Backend Clean Architecture Diagram](https://github.com/Joakim-animate90/go-crafted-backend/blob/main/assets/go-backend-arch-diagram.png?raw=true)
 
 
 ## Major Packages used in this project
@@ -40,6 +38,18 @@ And as always I would love to get feedback on my project. This helps everyone an
 - **testify**: A toolkit with common assertions and mocks that plays nicely with the standard library.
 - **mockery**: A mock code autogenerator for Golang used in testing.
 - Check more packages in `go.mod`.
+
+
+### Public API Request Flow without JWT Authentication Middleware
+
+![Public API Request Flow](https://github.com/Joakim-animate90/go-crafted-backend/blob/main/assets/go-arch-public-api-request-flow.png?raw=true)
+
+### Private API Request Flow with JWT Authentication Middleware
+
+> JWT Authentication Middleware for Access Token Validation.
+
+![Private API Request Flow](https://github.com/Joakim-animate90/go-crafted-backend/blob/main/assets/go-arch-private-api-request-flow.png?raw=true)
+
 
 
 
