@@ -2,7 +2,6 @@ package bootstrap
 
 import (
 	"log"
-
 	"github.com/spf13/viper"
 )
 
