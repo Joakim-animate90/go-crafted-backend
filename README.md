@@ -2,7 +2,7 @@
 
 A Go (Golang) Crafted Backend project with Gin, MongoDB, JWT Authentication Middleware, Test, and Docker.
 
-![Go Crafted Backend](https://github.com/Joakim-animate90/go-crafted-backend/blob/main/assets/go-backend-clean-architecture.png?raw=true)
+![Go Crafted Backend](https://github.com/Joakim-animate90/go-crafted-backend/blob/main/assets/go-backend-arch-diagram.png?raw=true)
 
 **You can use this project as a template to build your Backend project in the Go language on top of this project.**
 
