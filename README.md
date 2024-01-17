@@ -55,7 +55,7 @@ And as always I would love to get feedback on my project. This helps everyone an
 
 ### How to run this project?
 
-We can run this Go Crafted Backend project with or without Docker. Here, I am providing both ways to run this project.
+We can run this Go Crafted Backend project with  Docker. Here, I am providing ways to run this project.
 
 - Clone this project
 
@@ -70,14 +70,6 @@ git clone https://github.com/Joakim-animate90/go-crafted-backend.git
 cd go-backend-clean-architecture
 ```
 
-#### Run without Docker
-
-- Create a file `.env` similar to `.env.example` at the root directory with your configuration.
-- Install `go` if not installed on your machine.
-- Install `MongoDB` if not installed on your machine.
-- Important: Change the `DB_HOST` to `localhost` (`DB_HOST=localhost`) in `.env` configuration file. `DB_HOST=mongodb` is needed only when you run with Docker.
-- Run `go run cmd/main.go`.
-- Access API using `http://localhost:8080`
 
 #### Run with Docker
 
